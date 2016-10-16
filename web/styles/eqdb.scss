@@ -1,0 +1,23 @@
+// Copyright (c) 2016, Herman Bergwerf. All rights reserved.
+// Use of this source code is governed by a GPLv3-style license
+// that can be found in the LICENSE file.
+
+// In the EqDB design I took on a new challenge: creating a website that uses
+// only two colors (a background and a foreground color), and as much default
+// settings as possible (default font sizes, default font family, ...)
+
+$bg: #fdfdfd;
+$fg: #333;
+$quick: .1s;
+
+body {
+  background: $bg;
+  color: $fg;
+}
+
+* {
+  color: $fg;
+}
+
+@import 'mixins';
+@import 'widgets';

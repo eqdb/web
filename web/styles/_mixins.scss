@@ -1,0 +1,26 @@
+// Copyright (c) 2016, Herman Bergwerf. All rights reserved.
+// Use of this source code is governed by a GPLv3-style license
+// that can be found in the LICENSE file.
+
+@mixin tlrb($offset) {
+  top: $offset;
+  left: $offset;
+  right: $offset;
+  bottom: $offset;
+}
+
+@mixin appearance($what) {
+          appearance: $what;
+     -moz-appearance: $what;
+  -webkit-appearance: $what;
+}
+
+/*@mixin background-image($path, $other) {
+  background: url($path.png) $other;
+  background: url($path.svg), linear-gradient(transparent, transparent), $other;
+}
+
+@mixin background-image-url($path) {
+  background: url($path.png);
+  background: url($path.svg), linear-gradient(transparent, transparent);
+}*/

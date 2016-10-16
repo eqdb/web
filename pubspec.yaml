@@ -5,4 +5,12 @@ description:  Web frontend for EqDB
 homepage:     https://github.com/eqdb/web
 environment:
   sdk:        '>=1.8.0 <2.0.0'
+
 dependencies:
+  sass: ^0.4.2
+
+transformers:
+- sass:
+    style: compressed
+- $dart2js:
+    minify: true
