@@ -65,14 +65,14 @@ input[type=text] {
   border: 2px solid $bg;
   border-bottom: 1px dashed;
   background: none;
-  padding: 11px 15px 9px 15px;
-  margin: 10px;
-  margin-bottom: 2px;
+  line-height: 2.5;
+  padding: 0 15px;
+  margin: 10px 0 12px;
 
   &:hover {
     border-bottom-style: solid;
     border-bottom-width: 3px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
   &:focus {
@@ -81,7 +81,7 @@ input[type=text] {
     border-left: 2px dashed;
     border-right: 2px dashed;
     border-top: 2px dashed;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     outline: none;
   }
 
