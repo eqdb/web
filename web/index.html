@@ -12,7 +12,17 @@
       <path id="logo-stroke" d="M13.5 4v10.4999l3.5-1.5" fill="none"/>
     </svg>
     <br>
-    <input id="search-input" class="large" type="text" placeholder="Type a keyword or equation&hellip;">
-    <button>Search</button>
+    <form action="/search">
+      <input id="search-input" type="text" name="q" required="required" placeholder="Type a keyword or equation&hellip;">
+      <button type="submit">Search</button>
+    </form>
+    <p></p>
+    <footer>
+      Released under the <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Database License</a>
+      <span>/</span>
+      Learn more
+      <span>/</span>
+      <a href="/login">Login</a>
+    </footer>
   </body>
 </html>

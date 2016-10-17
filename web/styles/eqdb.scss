@@ -17,6 +17,7 @@ body {
 
 * {
   color: $fg;
+  font-family: auto !important;
 }
 
 @import 'mixins';

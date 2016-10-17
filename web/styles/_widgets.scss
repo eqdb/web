@@ -11,8 +11,8 @@ button {
 
   /* measures */
   position: relative;
-  padding: 10px 20px;
-  margin: 10px;
+  padding: .7em 1.4em;
+  margin: 1em;
 
   &:focus {
     outline: 1px dashed $fg;
@@ -139,5 +139,15 @@ select {
   &:-moz-focusring {
     color: transparent;
     text-shadow: 0 0 0 $fg;
+  }
+}
+
+/* Hyperlink */
+a {
+  margin: 0 2px;
+
+  &:focus, &:hover {
+    outline: 1px dashed;
+    outline-offset: 2px;
   }
 }

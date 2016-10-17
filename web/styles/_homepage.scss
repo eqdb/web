@@ -8,7 +8,7 @@ body {
 }
 
 #logo {
-  width: 800px;
+  width: 50em;
   max-width: 100%;
   margin-top: 10%;
 }
@@ -24,5 +24,27 @@ body {
 #search-input {
   box-sizing: border-box;
   max-width: 100%;
-  width: 300px;
+  width: 20em;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  line-height: 4em;
+  margin: 5em 1em 1em;
+
+  & > span {
+    /* Hide content */
+    width: 0;
+    overflow: hidden;
+
+    /* Create more artistic slash */
+    display: inline-block;
+    border: none;
+    border-left: .1em solid;
+    margin: 0 1em;
+    height: 2.5em;
+    vertical-align: middle;
+    transform: rotate(20deg);
+  }
 }
