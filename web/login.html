@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>EqDB</title>
+    <title>EqDB Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/eqdb.css">
     <link rel="stylesheet" href="styles/pages/simple.css">
-    <link rel="stylesheet" href="styles/pages/homepage.css">
+    <link rel="stylesheet" href="styles/pages/login.css">
   </head>
   <body>
     <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 16">
@@ -14,17 +14,10 @@
       <path id="logo-stroke" d="M13.5 4v10.4999l3.5-1.5" fill="none"/>
     </svg>
     <br>
-    <form action="search.html">
-      <input type="text" name="q" required="required" placeholder="Type a keyword or equation&hellip;">
-      <button type="submit">Search</button>
+    <form action="login.html">
+      <input type="text" name="username" required="required" placeholder="Username"><br>
+      <input type="text" name="password" required="required" placeholder="Password"><br>
+      <button type="submit">Login</button>
     </form>
-    <p></p>
-    <footer>
-      Released under the <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Database License</a>
-      <span>/</span>
-      Learn more
-      <span>/</span>
-      <a href="login.html">Login</a>
-    </footer>
   </body>
 </html>

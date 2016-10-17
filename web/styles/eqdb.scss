@@ -6,9 +6,7 @@
 // only two colors (a background and a foreground color), and as much default
 // settings as possible (default font sizes, default font family, ...)
 
-$bg: #fdfdfd;
-$fg: #333;
-$quick: .1s;
+@import 'variables';
 
 body {
   background: $bg;
@@ -22,4 +20,3 @@ body {
 
 @import 'mixins';
 @import 'widgets';
-@import 'homepage';

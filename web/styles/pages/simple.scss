@@ -1,0 +1,30 @@
+// Copyright (c) 2016, Herman Bergwerf. All rights reserved.
+// Use of this source code is governed by a GPLv3-style license
+// that can be found in the LICENSE file.
+
+/* Styles for a simple page with centered
+content and a logo at the top of the page */
+
+@import '../variables';
+
+body {
+  text-align: center;
+  padding: 20px;
+}
+
+input[type=text] {
+  width: 20em;
+}
+
+#logo {
+  max-width: 100%;
+  margin-top: 7%;
+}
+
+#logo-fill {
+  fill: $fg;
+}
+
+#logo-stroke {
+  stroke: $fg;
+}

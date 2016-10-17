@@ -2,29 +2,8 @@
 // Use of this source code is governed by a GPLv3-style license
 // that can be found in the LICENSE file.
 
-body {
-  text-align: center;
-  padding: 20px;
-}
-
 #logo {
   width: 50em;
-  max-width: 100%;
-  margin-top: 10%;
-}
-
-#logo-fill {
-  fill: $fg;
-}
-
-#logo-stroke {
-  stroke: $fg;
-}
-
-#search-input {
-  box-sizing: border-box;
-  max-width: 100%;
-  width: 20em;
 }
 
 footer {

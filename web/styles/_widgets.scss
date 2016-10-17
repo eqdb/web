@@ -65,9 +65,13 @@ input[type=text] {
   border: 2px solid $bg;
   border-bottom: 1px dashed;
   background: none;
-  line-height: 2.5;
-  padding: 0 15px;
+
+  /* measures */
+  box-sizing: border-box;
   margin: 10px 0 12px;
+  padding: 0 15px;
+  max-width: 100%;
+  line-height: 2.5;
 
   &:hover {
     border-bottom-style: solid;
