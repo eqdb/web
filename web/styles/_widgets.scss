@@ -12,7 +12,7 @@ button {
   /* measures */
   position: relative;
   padding: .7em 1.4em;
-  margin: 1em;
+  margin: .5em 0;
 
   &:focus {
     outline: 1px dashed $fg;
@@ -68,7 +68,7 @@ input[type=text] {
 
   /* measures */
   box-sizing: border-box;
-  margin: 10px 0 12px;
+  margin: .5em 0 12px;
   padding: 0 15px;
   max-width: 100%;
   line-height: 2.5;

@@ -18,5 +18,17 @@ body {
   font-family: auto !important;
 }
 
+#logo {
+  max-width: 100%;
+}
+
+#logo-fill {
+  fill: $fg;
+}
+
+#logo-stroke {
+  stroke: $fg;
+}
+
 @import 'mixins';
 @import 'widgets';
