@@ -5,63 +5,11 @@
 @import '../mixins';
 @import '../variables';
 
-#control-pane {
-  border-right: 2px dashed;
-  text-align: center;
-  overflow: auto;
-
-  /* measures */
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  width: 18em;
-  padding: 20px;
-}
-
-#content-pane {
-  /* measures */
-  position: absolute;
-  left: 18em;
-  margin-left: 42px;
-  padding: 20px;
-}
-
-#logo {
-  width: 10em;
-}
-
 #identity {
   font-style: italic;
+  margin: 1em;
 }
 
-#menu {
-  text-align: left;
-  padding: 0;
-  width: 100%;
-  margin: 1em 0;
-}
-
-#menu > li {
-  list-style: none;
-  padding: 1em;
-  font-size: 1.2em;
-}
-
-#menu > li.selected {
-  font-weight: bold;
-}
-
-#menu > li.selected:before {
-  content: '';
-  border: .4em solid;
-  border-color: transparent transparent transparent $fg;
-  display: inline-block;
-  vertical-align: middle;
-  margin: .1em .5em .2em 0;
-}
-
-#control-pane > hr {
-  border: 0;
-  border-top: 2px solid;
-  margin: 2em 0 1em 0;
+button {
+  margin: .3em;
 }

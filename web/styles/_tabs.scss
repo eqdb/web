@@ -1,0 +1,50 @@
+// Copyright (c) 2016, Herman Bergwerf. All rights reserved.
+// Use of this source code is governed by a GPLv3-style license
+// that can be found in the LICENSE file.
+
+.tabs {
+  padding: 0;
+  margin: 1em 0;
+  max-width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.tabs > li {
+  list-style: none;
+  display: inline-block;
+  border-bottom: 2px solid;
+  padding: 0 .4em;
+  vertical-align: text-bottom;
+}
+
+.tabs > li.selected {
+  font-weight: bold;
+  padding: 0;
+}
+
+.tabs > li > span {
+  border: 2px solid;
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
+
+  /* measures */
+  padding: 0 1em;
+  line-height: 2em;
+  display: inline-block;
+  margin-bottom: -2px;
+  z-index: 1;
+}
+
+.tabs > li:hover {
+  cursor: pointer;
+}
+
+.tabs > li:hover > span {
+  line-height: 2.4em;
+}
+
+.tabs > li.selected > span {
+  background: $bg;
+  line-height: 2.6em;
+}
