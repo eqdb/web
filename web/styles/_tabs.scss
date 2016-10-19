@@ -18,33 +18,39 @@
   vertical-align: text-bottom;
 }
 
-.tabs > li.selected {
-  font-weight: bold;
-  padding: 0;
-}
-
-.tabs > li > span {
+.tabs > li > a {
   border: 2px solid;
   border-bottom: 0;
   border-radius: 10px 10px 0 0;
+  text-decoration: none;
 
   /* measures */
+  margin: 0;
   padding: 0 1em;
   line-height: 2em;
   display: inline-block;
   margin-bottom: -2px;
   z-index: 1;
+
+  &:focus {
+    outline: none;
+    line-height: 2.4em;
+    text-decoration: underline;
+  }
+
+  &:hover {
+    outline: none;
+    cursor: pointer;
+    line-height: 2.4em;
+  }
 }
 
-.tabs > li:hover {
-  cursor: pointer;
+.tabs > li.selected {
+  font-weight: bold;
+  padding: 0;
 }
 
-.tabs > li:hover > span {
-  line-height: 2.4em;
-}
-
-.tabs > li.selected > span {
+.tabs > li.selected > a {
   background: $bg;
   line-height: 2.6em;
 }

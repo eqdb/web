@@ -7,10 +7,13 @@ environment:
   sdk:        '>=1.8.0 <2.0.0'
 
 dependencies:
-  sass: ^0.4.2
+  sass:     ^0.4.2
+  browser:  ^0.10.0+2
+  dart_to_js_script_rewriter: ^1.0.1
 
 transformers:
 - sass:
     style: compressed
 - $dart2js:
     minify: true
+- dart_to_js_script_rewriter

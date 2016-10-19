@@ -14,13 +14,3 @@
      -moz-appearance: $what;
   -webkit-appearance: $what;
 }
-
-/*@mixin background-image($path, $other) {
-  background: url($path.png) $other;
-  background: url($path.svg), linear-gradient(transparent, transparent), $other;
-}
-
-@mixin background-image-url($path) {
-  background: url($path.png);
-  background: url($path.svg), linear-gradient(transparent, transparent);
-}*/
